@@ -1,0 +1,65 @@
+\begin{thebibliography}{10}
+
+\bibitem{hughes-why}
+J.~Hughes.
+\newblock Why functional programming matters.
+\newblock {\em The Computer Journal}, 32(2):98--107, 1989.
+
+\bibitem{not-a-number}
+Conor McBride and James McKinna.
+\newblock Functional pearl: I am not a number--i am a free variable.
+\newblock In {\em Proceedings of the 2004 ACM SIGPLAN Workshop on Haskell},
+  Haskell '04, pages 1--9, New York, NY, USA, 2004. ACM.
+
+\bibitem{why-dependent-types-matter}
+James McKinna.
+\newblock Why dependent types matter.
+\newblock {\em ACM SIGPLAN Notices}, 41(1):1--1, 2006.
+
+\bibitem{ffi}
+The {Haskell 98} foreign function interface 1.0: An addendum to the {Haskell
+  98} report.
+\newblock Available from \verb+http://www.haskell.org/+, December 2002.
+
+\bibitem{secd}
+P.J. Landin.
+\newblock The mechanical evaluation of expressions.
+\newblock {\em Computer Journal}, 6:308--320, 1964.
+
+\bibitem{filinski-nbesem}
+Andrzej Filinski.
+\newblock A semantic account of type-directed partial evaluation.
+\newblock In G.~Nadathur, editor, {\em International Conference on Principles
+  and Practice of Declarative Programming}, volume 1702 of {\em LNCS}, pages
+  378--395. Springer-Verlag, 1999.
+
+\bibitem{nbe-filinski}
+Andrzej Filinski.
+\newblock Normalization by evaluation for the computational lambda-calculus.
+\newblock In {\em Typed Lambda Calculi and Applications: 5th International
+  Conference, TLCA 2001}, volume 2044 of {\em LNCS}, pages 151--165.
+  Springer-Verlag, May 2001.
+
+\bibitem{rbtree}
+Chris Okasaki.
+\newblock Red-black trees in a functional setting.
+\newblock {\em Journal of Functional Programming}, 9(4):471--477, May 1999.
+
+\bibitem{view-left}
+Conor McBride and James McKinna.
+\newblock The view from the left.
+\newblock {\em Journal of Functional Programming}, 14(1):69--111, 2004.
+
+\bibitem{extt}
+Edwin Brady, Conor McBride, and James McKinna.
+\newblock Inductive families need not store their indices.
+\newblock In Stefano Berardi, Mario Coppo, and Ferruccio Damiani, editors, {\em
+  Types for Proofs and Programs 2003}, volume 3085 of {\em Lecture Notes in
+  Computer Science}, pages 115--129. Springer, 2004.
+
+\bibitem{mcbride-snr-thesis}
+Fred McBride.
+\newblock {\em Computer Aided Manipulation of Symbols}.
+\newblock PhD thesis, Queen's University of Belfast, 1970.
+
+\end{thebibliography}

@@ -1,0 +1,55 @@
+#+title: Writing papers with Emacs, org-mode and org-ref
+#+author: Steven Shaw
+#+date: 17-Jun-2016
+#+options: toc:nil
+#+latex_header_ignore: \usepackage{version=3}{mhchem}
+#+latex_header: \usepackage{float}
+
+* Introduction
+
+Cite a paper cite:hughes-why.
+
+Multiple citations cite:not-a-number,why-dependent-types-matter.
+
+More citations cite:ffi,secd,filinski-nbesem,nbe-filinski,rbtree.
+
+Alternative cites citenum:hughes-why.
+
+* Methods
+
+#+BEGIN_LaTeX
+\begin{equation} \label{eq-sinh}
+y = \sinh x
+\end{equation}
+#+END_LaTeX
+
+Refer to eq. eqref:eq-sinh for the details.
+
+* Results
+
+#+begin_src python :exports none :results silent
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, np.pi)
+y = np.sinh(x)
+plt.plot(x, y)
+plt.xlabel('x')
+plt.ylabel('sinh(x)')
+plt.savefig('sinh.png')
+#+end_src
+
+#+attr_latex: :placement [H]
+#+caption: plotting is a cinch. label:fig-cinch
+[[./sinh.png]]
+
+The results are in Figure ref:fig-cinch.
+
+* Conclusions
+  
+org-ref was used in these papers cite:view-left,not-a-number,extt,mcbride-snr-thesis.
+
+It made it easy.
+
+bibliographystyle:unsrt
+bibliography:manuscript.bib,literature.bib
